@@ -1,0 +1,12 @@
+{
+    "timestamp": "2024-11-12T11:11:21.540019",
+    "strategy": "lstm_Brazil - Minerva SABrazil (BEEF",
+    "category": "company_performance",
+    "metrics": {
+        "return": 15.433767019849576,
+        "trades": 3,
+        "sharpe_ratio": 0.39660481939777625,
+        "max_drawdown": 5.410193587553542,
+        "win_rate": 100.0
+    }
+}

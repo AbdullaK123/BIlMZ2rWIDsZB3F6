@@ -1,0 +1,12 @@
+{
+    "timestamp": "2024-11-12T11:16:59.995013",
+    "strategy": "naive_Colombia - Cementos Argos SA (C",
+    "category": "company_performance",
+    "metrics": {
+        "return": -2.7234744373261637,
+        "trades": 7,
+        "sharpe_ratio": -0.09894922828596825,
+        "max_drawdown": 5.458090132489822,
+        "win_rate": 42.857142857142854
+    }
+}

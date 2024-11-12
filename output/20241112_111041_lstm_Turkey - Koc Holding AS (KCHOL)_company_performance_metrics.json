@@ -1,0 +1,12 @@
+{
+    "timestamp": "2024-11-12T11:11:04.129768",
+    "strategy": "lstm_Turkey - Koc Holding AS (KCHOL)",
+    "category": "company_performance",
+    "metrics": {
+        "return": 8.128008643159163,
+        "trades": 4,
+        "sharpe_ratio": 0.16037350018069446,
+        "max_drawdown": 2.7388267021923114,
+        "win_rate": 75.0
+    }
+}

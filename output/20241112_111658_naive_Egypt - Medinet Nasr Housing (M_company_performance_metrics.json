@@ -1,0 +1,12 @@
+{
+    "timestamp": "2024-11-12T11:16:59.967143",
+    "strategy": "naive_Egypt - Medinet Nasr Housing (M",
+    "category": "company_performance",
+    "metrics": {
+        "return": 4.731614694759177,
+        "trades": 7,
+        "sharpe_ratio": 0.18215336643945698,
+        "max_drawdown": 4.97347164204439,
+        "win_rate": 28.57142857142857
+    }
+}

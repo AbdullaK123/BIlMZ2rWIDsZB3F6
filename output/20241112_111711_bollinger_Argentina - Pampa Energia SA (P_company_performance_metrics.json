@@ -1,0 +1,12 @@
+{
+    "timestamp": "2024-11-12T11:17:13.451930",
+    "strategy": "bollinger_Argentina - Pampa Energia SA (P",
+    "category": "company_performance",
+    "metrics": {
+        "return": 0.0,
+        "trades": 0,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0,
+        "win_rate": 0
+    }
+}

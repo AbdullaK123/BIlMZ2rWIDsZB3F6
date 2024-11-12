@@ -1,0 +1,12 @@
+{
+    "timestamp": "2024-11-12T11:16:59.957650",
+    "strategy": "naive_Turkey - Koc Holding AS (KCHOL)",
+    "category": "company_performance",
+    "metrics": {
+        "return": -1.368823399714791,
+        "trades": 13,
+        "sharpe_ratio": -0.027008214358415775,
+        "max_drawdown": 10.167184514023623,
+        "win_rate": 38.46153846153847
+    }
+}

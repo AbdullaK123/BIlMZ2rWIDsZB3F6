@@ -1,0 +1,120 @@
+{
+    "timestamp": "2024-11-12T11:17:13.482147",
+    "experiment": "trading_analysis",
+    "results": {
+        "bollinger": {
+            "Russia - Sberbank Rossii PAO (S": {
+                "returns": {
+                    "total_return": 8.843337395103488,
+                    "number_of_trades": 0,
+                    "win_rate": 0,
+                    "avg_trade_return": 0,
+                    "max_drawdown": 6.907106342973633,
+                    "final_value": 108843.33739510349
+                },
+                "metrics": {
+                    "volatility": 27.199037882429533,
+                    "sharpe_ratio": 0.3251341989863637
+                }
+            },
+            "Turkey - Koc Holding AS (KCHOL)": {
+                "returns": {
+                    "total_return": 6.799059421822676,
+                    "number_of_trades": 1,
+                    "win_rate": 100.0,
+                    "avg_trade_return": 16.896908752872335,
+                    "max_drawdown": 10.383972078419623,
+                    "final_value": 106799.05942182268
+                },
+                "metrics": {
+                    "volatility": 50.68174376690197,
+                    "sharpe_ratio": 0.13415204206653294
+                }
+            },
+            "Egypt - Medinet Nasr Housing (M": {
+                "returns": {
+                    "total_return": 4.5254020680064855,
+                    "number_of_trades": 0,
+                    "win_rate": 0,
+                    "avg_trade_return": 0,
+                    "max_drawdown": 0.01339658128576633,
+                    "final_value": 104525.40206800649
+                },
+                "metrics": {
+                    "volatility": 25.975993676360858,
+                    "sharpe_ratio": 0.1742147817091892
+                }
+            },
+            "Brazil - Minerva SABrazil (BEEF": {
+                "returns": {
+                    "total_return": 0.0,
+                    "number_of_trades": 0,
+                    "win_rate": 0,
+                    "avg_trade_return": 0,
+                    "max_drawdown": 0,
+                    "final_value": 100000
+                },
+                "metrics": {
+                    "volatility": 38.914723838416656,
+                    "sharpe_ratio": 0.0
+                }
+            },
+            "Argentina - Pampa Energia SA (P": {
+                "returns": {
+                    "total_return": 0.0,
+                    "number_of_trades": 0,
+                    "win_rate": 0,
+                    "avg_trade_return": 0,
+                    "max_drawdown": 0,
+                    "final_value": 100000
+                },
+                "metrics": {
+                    "volatility": 38.629402485015376,
+                    "sharpe_ratio": 0.0
+                }
+            },
+            "Colombia - Cementos Argos SA (C": {
+                "returns": {
+                    "total_return": -14.423891617497123,
+                    "number_of_trades": 0,
+                    "win_rate": 0,
+                    "avg_trade_return": 0,
+                    "max_drawdown": 19.590382874723165,
+                    "final_value": 85576.10838250288
+                },
+                "metrics": {
+                    "volatility": 27.52395834210233,
+                    "sharpe_ratio": -0.5240485920745439
+                }
+            },
+            "South Africa - Impala Platinum ": {
+                "returns": {
+                    "total_return": 0.0,
+                    "number_of_trades": 0,
+                    "win_rate": 0,
+                    "avg_trade_return": 0,
+                    "max_drawdown": 0,
+                    "final_value": 100000
+                },
+                "metrics": {
+                    "volatility": 49.241462824034194,
+                    "sharpe_ratio": 0.0
+                }
+            },
+            "South Korea - Dongkuk Steel Mil": {
+                "returns": {
+                    "total_return": 29.263038440070392,
+                    "number_of_trades": 1,
+                    "win_rate": 100.0,
+                    "avg_trade_return": 29.263038440070392,
+                    "max_drawdown": 6.3588294848169244,
+                    "final_value": 129263.03844007039
+                },
+                "metrics": {
+                    "volatility": 54.01725627465207,
+                    "sharpe_ratio": 0.5417350020756655
+                }
+            }
+        }
+    }
+}

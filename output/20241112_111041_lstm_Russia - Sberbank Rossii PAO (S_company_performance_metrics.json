@@ -1,0 +1,12 @@
+{
+    "timestamp": "2024-11-12T11:10:55.018247",
+    "strategy": "lstm_Russia - Sberbank Rossii PAO (S",
+    "category": "company_performance",
+    "metrics": {
+        "return": 0.9129306132920173,
+        "trades": 1,
+        "sharpe_ratio": 0.03356481274220978,
+        "max_drawdown": 3.88133197169592,
+        "win_rate": 100.0
+    }
+}

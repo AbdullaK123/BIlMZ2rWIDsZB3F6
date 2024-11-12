@@ -1,0 +1,12 @@
+{
+    "timestamp": "2024-11-12T11:17:00.004164",
+    "strategy": "naive_South Africa - Impala Platinum ",
+    "category": "company_performance",
+    "metrics": {
+        "return": -5.169678179455717,
+        "trades": 16,
+        "sharpe_ratio": -0.1049862835702041,
+        "max_drawdown": 11.885167656773206,
+        "win_rate": 37.5
+    }
+}

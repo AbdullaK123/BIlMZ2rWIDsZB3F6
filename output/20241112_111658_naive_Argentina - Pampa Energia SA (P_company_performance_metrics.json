@@ -1,0 +1,12 @@
+{
+    "timestamp": "2024-11-12T11:16:59.987580",
+    "strategy": "naive_Argentina - Pampa Energia SA (P",
+    "category": "company_performance",
+    "metrics": {
+        "return": -11.848464484857294,
+        "trades": 15,
+        "sharpe_ratio": -0.30672140190243424,
+        "max_drawdown": 13.920834746789746,
+        "win_rate": 20.0
+    }
+}

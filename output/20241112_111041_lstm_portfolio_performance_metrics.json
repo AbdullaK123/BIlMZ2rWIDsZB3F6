@@ -1,0 +1,15 @@
+{
+    "timestamp": "2024-11-12T11:12:00.406448",
+    "strategy": "lstm",
+    "category": "portfolio_performance",
+    "metrics": {
+        "avg_return": 12.202940582743292,
+        "best_return": 72.69876772928747,
+        "worst_return": -3.384460471592203,
+        "avg_trades": 2.0,
+        "avg_sharpe_ratio": 0.24786972038845764,
+        "avg_max_drawdown": 3.745662853356176,
+        "avg_win_rate": 64.375,
+        "companies_analyzed": 8
+    }
+}

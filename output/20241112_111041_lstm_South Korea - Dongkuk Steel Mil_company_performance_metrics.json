@@ -1,0 +1,12 @@
+{
+    "timestamp": "2024-11-12T11:12:00.405753",
+    "strategy": "lstm_South Korea - Dongkuk Steel Mil",
+    "category": "company_performance",
+    "metrics": {
+        "return": 72.69876772928747,
+        "trades": 0,
+        "sharpe_ratio": 1.3458433978884228,
+        "max_drawdown": 6.358829484816917,
+        "win_rate": 0
+    }
+}

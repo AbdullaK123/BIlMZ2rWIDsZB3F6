@@ -1,0 +1,12 @@
+{
+    "timestamp": "2024-11-12T11:17:13.424700",
+    "strategy": "bollinger_Turkey - Koc Holding AS (KCHOL)",
+    "category": "company_performance",
+    "metrics": {
+        "return": 6.799059421822676,
+        "trades": 1,
+        "sharpe_ratio": 0.13415204206653294,
+        "max_drawdown": 10.383972078419623,
+        "win_rate": 100.0
+    }
+}

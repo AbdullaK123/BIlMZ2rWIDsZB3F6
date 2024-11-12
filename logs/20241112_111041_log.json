@@ -1,0 +1,126 @@
+{"timestamp": "2024-11-12T11:10:43.379601", "level": "INFO", "message": "Starting analysis with strategy=lstm", "module": "main", "function": "main", "line": 150}
+{"timestamp": "2024-11-12T11:10:43.380244", "level": "INFO", "message": "Loading stock data from /root/apziva_project_5/data/2020Q1Q2Q3Q4-2021Q1.xlsx", "module": "main", "function": "main", "line": 153}
+{"timestamp": "2024-11-12T11:10:43.380607", "level": "INFO", "message": "Loading exchange rates from /root/apziva_project_5/data/exchange_rates_2020_2021Q1.csv", "module": "preprocessing", "function": "load_exchange_rates", "line": 37}
+{"timestamp": "2024-11-12T11:10:43.404789", "level": "INFO", "message": "Successfully loaded rates from 2020-01-01 00:00:00 to 2021-03-31 00:00:00", "module": "preprocessing", "function": "load_exchange_rates", "line": 71}
+{"timestamp": "2024-11-12T11:10:43.789425", "level": "INFO", "message": "Processing 8 companies", "module": "preprocessing", "function": "get_stock_data", "line": 194}
+{"timestamp": "2024-11-12T11:10:43.823471", "level": "INFO", "message": "Converting RUB to USD for Russia - Sberbank Rossii PAO (S", "module": "preprocessing", "function": "get_stock_data", "line": 223}
+{"timestamp": "2024-11-12T11:10:43.826544", "level": "DEBUG", "message": "RUB Price conversion - Mean before: 234.41, Mean after: 3.24 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:43.827382", "level": "DEBUG", "message": "RUB Open conversion - Mean before: 234.30, Mean after: 3.24 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:43.828046", "level": "DEBUG", "message": "RUB High conversion - Mean before: 237.21, Mean after: 3.28 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:43.828665", "level": "DEBUG", "message": "RUB Low conversion - Mean before: 231.24, Mean after: 3.20 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:43.833235", "level": "INFO", "message": "Russia - Sberbank Rossii PAO (S: Split into 250 train and 60 test samples", "module": "preprocessing", "function": "get_stock_data", "line": 244}
+{"timestamp": "2024-11-12T11:10:43.859035", "level": "INFO", "message": "Converting TRY to USD for Turkey - Koc Holding AS (KCHOL)", "module": "preprocessing", "function": "get_stock_data", "line": 223}
+{"timestamp": "2024-11-12T11:10:43.861635", "level": "DEBUG", "message": "TRY Price conversion - Mean before: 17.86, Mean after: 2.54 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:43.862682", "level": "DEBUG", "message": "TRY Open conversion - Mean before: 17.88, Mean after: 2.55 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:43.863566", "level": "DEBUG", "message": "TRY High conversion - Mean before: 18.15, Mean after: 2.58 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:43.864558", "level": "DEBUG", "message": "TRY Low conversion - Mean before: 17.61, Mean after: 2.51 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:43.868845", "level": "INFO", "message": "Turkey - Koc Holding AS (KCHOL): Split into 252 train and 63 test samples", "module": "preprocessing", "function": "get_stock_data", "line": 244}
+{"timestamp": "2024-11-12T11:10:43.902847", "level": "INFO", "message": "Converting EGP to USD for Egypt - Medinet Nasr Housing (M", "module": "preprocessing", "function": "get_stock_data", "line": 223}
+{"timestamp": "2024-11-12T11:10:43.908311", "level": "DEBUG", "message": "EGP Price conversion - Mean before: 3.55, Mean after: 0.23 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:43.910743", "level": "DEBUG", "message": "EGP Open conversion - Mean before: 3.56, Mean after: 0.23 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:43.913872", "level": "DEBUG", "message": "EGP High conversion - Mean before: 3.62, Mean after: 0.23 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:43.915688", "level": "DEBUG", "message": "EGP Low conversion - Mean before: 3.49, Mean after: 0.22 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:43.919636", "level": "INFO", "message": "Egypt - Medinet Nasr Housing (M: Split into 194 train and 49 test samples", "module": "preprocessing", "function": "get_stock_data", "line": 244}
+{"timestamp": "2024-11-12T11:10:43.954580", "level": "INFO", "message": "Converting BRL to USD for Brazil - Minerva SABrazil (BEEF", "module": "preprocessing", "function": "get_stock_data", "line": 223}
+{"timestamp": "2024-11-12T11:10:43.957268", "level": "DEBUG", "message": "BRL Price conversion - Mean before: 11.38, Mean after: 2.21 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:43.958237", "level": "DEBUG", "message": "BRL Open conversion - Mean before: 11.40, Mean after: 2.21 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:43.958976", "level": "DEBUG", "message": "BRL High conversion - Mean before: 11.67, Mean after: 2.26 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:43.959529", "level": "DEBUG", "message": "BRL Low conversion - Mean before: 11.13, Mean after: 2.16 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:43.963424", "level": "INFO", "message": "Brazil - Minerva SABrazil (BEEF: Split into 249 train and 60 test samples", "module": "preprocessing", "function": "get_stock_data", "line": 244}
+{"timestamp": "2024-11-12T11:10:43.996624", "level": "INFO", "message": "Converting ARS to USD for Argentina - Pampa Energia SA (P", "module": "preprocessing", "function": "get_stock_data", "line": 223}
+{"timestamp": "2024-11-12T11:10:44.000472", "level": "DEBUG", "message": "ARS Price conversion - Mean before: 61.24, Mean after: 0.81 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:44.001804", "level": "DEBUG", "message": "ARS Open conversion - Mean before: 61.13, Mean after: 0.81 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:44.002670", "level": "DEBUG", "message": "ARS High conversion - Mean before: 62.74, Mean after: 0.84 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:44.003338", "level": "DEBUG", "message": "ARS Low conversion - Mean before: 59.52, Mean after: 0.79 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:44.006564", "level": "INFO", "message": "Argentina - Pampa Energia SA (P: Split into 240 train and 60 test samples", "module": "preprocessing", "function": "get_stock_data", "line": 244}
+{"timestamp": "2024-11-12T11:10:44.041226", "level": "INFO", "message": "Converting COP to USD for Colombia - Cementos Argos SA (C", "module": "preprocessing", "function": "get_stock_data", "line": 223}
+{"timestamp": "2024-11-12T11:10:44.043427", "level": "DEBUG", "message": "COP Price conversion - Mean before: 4836.54, Mean after: 1.34 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:44.044312", "level": "DEBUG", "message": "COP Open conversion - Mean before: 4849.64, Mean after: 1.34 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:44.044974", "level": "DEBUG", "message": "COP High conversion - Mean before: 4917.34, Mean after: 1.36 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:44.045854", "level": "DEBUG", "message": "COP Low conversion - Mean before: 4770.34, Mean after: 1.32 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:44.049231", "level": "INFO", "message": "Colombia - Cementos Argos SA (C: Split into 242 train and 61 test samples", "module": "preprocessing", "function": "get_stock_data", "line": 244}
+{"timestamp": "2024-11-12T11:10:44.077581", "level": "INFO", "message": "Converting ZAR to USD for South Africa - Impala Platinum ", "module": "preprocessing", "function": "get_stock_data", "line": 223}
+{"timestamp": "2024-11-12T11:10:44.079973", "level": "DEBUG", "message": "ZAR Price conversion - Mean before: 16018.34, Mean after: 1014.59 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:44.082016", "level": "DEBUG", "message": "ZAR Open conversion - Mean before: 16037.12, Mean after: 1015.84 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:44.083898", "level": "DEBUG", "message": "ZAR High conversion - Mean before: 16501.35, Mean after: 1044.85 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:44.086090", "level": "DEBUG", "message": "ZAR Low conversion - Mean before: 15549.87, Mean after: 985.34 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:44.090220", "level": "INFO", "message": "South Africa - Impala Platinum : Split into 252 train and 62 test samples", "module": "preprocessing", "function": "get_stock_data", "line": 244}
+{"timestamp": "2024-11-12T11:10:44.129096", "level": "WARNING", "message": "South Korea - Dongkuk Steel Mil: Found 41 zero volume days", "module": "preprocessing", "function": "process_stock_data", "line": 103}
+{"timestamp": "2024-11-12T11:10:44.131888", "level": "INFO", "message": "Converting KRW to USD for South Korea - Dongkuk Steel Mil", "module": "preprocessing", "function": "get_stock_data", "line": 223}
+{"timestamp": "2024-11-12T11:10:44.138755", "level": "DEBUG", "message": "KRW Price conversion - Mean before: 6430.45, Mean after: 5.58 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:44.140267", "level": "DEBUG", "message": "KRW Open conversion - Mean before: 6423.40, Mean after: 5.57 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:44.141605", "level": "DEBUG", "message": "KRW High conversion - Mean before: 6577.86, Mean after: 5.70 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:44.142394", "level": "DEBUG", "message": "KRW Low conversion - Mean before: 6282.04, Mean after: 5.45 USD", "module": "preprocessing", "function": "convert_to_usd", "line": 135}
+{"timestamp": "2024-11-12T11:10:44.144699", "level": "INFO", "message": "South Korea - Dongkuk Steel Mil: Split into 248 train and 61 test samples", "module": "preprocessing", "function": "get_stock_data", "line": 244}
+{"timestamp": "2024-11-12T11:10:44.145038", "level": "INFO", "message": "Successfully loaded data for 8 companies", "module": "main", "function": "main", "line": 160}
+{"timestamp": "2024-11-12T11:10:44.145210", "level": "INFO", "message": "Analyzing lstm strategy", "module": "main", "function": "analyze_single_strategy", "line": 101}
+{"timestamp": "2024-11-12T11:10:44.145316", "level": "INFO", "message": "Initializing Bollinger Bands", "module": "strategies", "function": "__init__", "line": 23}
+{"timestamp": "2024-11-12T11:10:44.145373", "level": "INFO", "message": "Initializing LSTM", "module": "strategies", "function": "__init__", "line": 23}
+{"timestamp": "2024-11-12T11:10:44.323321", "level": "INFO", "message": "Initializing Naive Forecast", "module": "strategies", "function": "__init__", "line": 23}
+{"timestamp": "2024-11-12T11:10:44.323681", "level": "INFO", "message": "Analyzing Russia - Sberbank Rossii PAO (S with lstm strategy", "module": "main", "function": "analyze_single_strategy", "line": 110}
+{"timestamp": "2024-11-12T11:10:44.323901", "level": "INFO", "message": "LSTM: Starting analysis", "module": "strategies", "function": "analyze", "line": 109}
+{"timestamp": "2024-11-12T11:10:44.324018", "level": "INFO", "message": "Calculating LSTM direction-based signals", "module": "strategies", "function": "calculate_signals", "line": 237}
+{"timestamp": "2024-11-12T11:10:44.325793", "level": "DEBUG", "message": "Created sequences - X: (230, 20, 1), y: (230, 1)", "module": "preprocessing", "function": "create_sequences", "line": 174}
+{"timestamp": "2024-11-12T11:10:55.013823", "level": "INFO", "message": "Generated signals: {'HOLD': 58, 'BUY': 1, 'SELL': 1}", "module": "strategies", "function": "calculate_signals", "line": 269}
+{"timestamp": "2024-11-12T11:10:55.014141", "level": "INFO", "message": "LSTM: Calculating returns with initial_cash=100000", "module": "strategies", "function": "calculate_returns", "line": 32}
+{"timestamp": "2024-11-12T11:10:55.016866", "level": "INFO", "message": "LSTM: Final return 0.91%", "module": "strategies", "function": "calculate_returns", "line": 100}
+{"timestamp": "2024-11-12T11:10:55.018539", "level": "INFO", "message": "Russia - Sberbank Rossii PAO (S Results - Return: 0.91%, Sharpe: 0.03", "module": "main", "function": "analyze_single_strategy", "line": 129}
+{"timestamp": "2024-11-12T11:10:55.018689", "level": "INFO", "message": "Analyzing Turkey - Koc Holding AS (KCHOL) with lstm strategy", "module": "main", "function": "analyze_single_strategy", "line": 110}
+{"timestamp": "2024-11-12T11:10:55.018795", "level": "INFO", "message": "LSTM: Starting analysis", "module": "strategies", "function": "analyze", "line": 109}
+{"timestamp": "2024-11-12T11:10:55.019006", "level": "INFO", "message": "Calculating LSTM direction-based signals", "module": "strategies", "function": "calculate_signals", "line": 237}
+{"timestamp": "2024-11-12T11:10:55.019910", "level": "DEBUG", "message": "Created sequences - X: (232, 20, 1), y: (232, 1)", "module": "preprocessing", "function": "create_sequences", "line": 174}
+{"timestamp": "2024-11-12T11:11:04.125694", "level": "INFO", "message": "Generated signals: {'HOLD': 55, 'BUY': 4, 'SELL': 4}", "module": "strategies", "function": "calculate_signals", "line": 269}
+{"timestamp": "2024-11-12T11:11:04.125997", "level": "INFO", "message": "LSTM: Calculating returns with initial_cash=100000", "module": "strategies", "function": "calculate_returns", "line": 32}
+{"timestamp": "2024-11-12T11:11:04.128796", "level": "INFO", "message": "LSTM: Final return 8.13%", "module": "strategies", "function": "calculate_returns", "line": 100}
+{"timestamp": "2024-11-12T11:11:04.130155", "level": "INFO", "message": "Turkey - Koc Holding AS (KCHOL) Results - Return: 8.13%, Sharpe: 0.16", "module": "main", "function": "analyze_single_strategy", "line": 129}
+{"timestamp": "2024-11-12T11:11:04.130300", "level": "INFO", "message": "Analyzing Egypt - Medinet Nasr Housing (M with lstm strategy", "module": "main", "function": "analyze_single_strategy", "line": 110}
+{"timestamp": "2024-11-12T11:11:04.130392", "level": "INFO", "message": "LSTM: Starting analysis", "module": "strategies", "function": "analyze", "line": 109}
+{"timestamp": "2024-11-12T11:11:04.130467", "level": "INFO", "message": "Calculating LSTM direction-based signals", "module": "strategies", "function": "calculate_signals", "line": 237}
+{"timestamp": "2024-11-12T11:11:04.131140", "level": "DEBUG", "message": "Created sequences - X: (174, 20, 1), y: (174, 1)", "module": "preprocessing", "function": "create_sequences", "line": 174}
+{"timestamp": "2024-11-12T11:11:11.728899", "level": "INFO", "message": "Generated signals: {'HOLD': 45, 'BUY': 2, 'SELL': 2}", "module": "strategies", "function": "calculate_signals", "line": 269}
+{"timestamp": "2024-11-12T11:11:11.729100", "level": "INFO", "message": "LSTM: Calculating returns with initial_cash=100000", "module": "strategies", "function": "calculate_returns", "line": 32}
+{"timestamp": "2024-11-12T11:11:11.731124", "level": "INFO", "message": "LSTM: Final return 1.27%", "module": "strategies", "function": "calculate_returns", "line": 100}
+{"timestamp": "2024-11-12T11:11:11.732351", "level": "INFO", "message": "Egypt - Medinet Nasr Housing (M Results - Return: 1.27%, Sharpe: 0.05", "module": "main", "function": "analyze_single_strategy", "line": 129}
+{"timestamp": "2024-11-12T11:11:11.732486", "level": "INFO", "message": "Analyzing Brazil - Minerva SABrazil (BEEF with lstm strategy", "module": "main", "function": "analyze_single_strategy", "line": 110}
+{"timestamp": "2024-11-12T11:11:11.732569", "level": "INFO", "message": "LSTM: Starting analysis", "module": "strategies", "function": "analyze", "line": 109}
+{"timestamp": "2024-11-12T11:11:11.732626", "level": "INFO", "message": "Calculating LSTM direction-based signals", "module": "strategies", "function": "calculate_signals", "line": 237}
+{"timestamp": "2024-11-12T11:11:11.733185", "level": "DEBUG", "message": "Created sequences - X: (229, 20, 1), y: (229, 1)", "module": "preprocessing", "function": "create_sequences", "line": 174}
+{"timestamp": "2024-11-12T11:11:21.537196", "level": "INFO", "message": "Generated signals: {'HOLD': 53, 'BUY': 4, 'SELL': 3}", "module": "strategies", "function": "calculate_signals", "line": 269}
+{"timestamp": "2024-11-12T11:11:21.537389", "level": "INFO", "message": "LSTM: Calculating returns with initial_cash=100000", "module": "strategies", "function": "calculate_returns", "line": 32}
+{"timestamp": "2024-11-12T11:11:21.539230", "level": "INFO", "message": "LSTM: Final return 15.43%", "module": "strategies", "function": "calculate_returns", "line": 100}
+{"timestamp": "2024-11-12T11:11:21.540205", "level": "INFO", "message": "Brazil - Minerva SABrazil (BEEF Results - Return: 15.43%, Sharpe: 0.40", "module": "main", "function": "analyze_single_strategy", "line": 129}
+{"timestamp": "2024-11-12T11:11:21.540288", "level": "INFO", "message": "Analyzing Argentina - Pampa Energia SA (P with lstm strategy", "module": "main", "function": "analyze_single_strategy", "line": 110}
+{"timestamp": "2024-11-12T11:11:21.540325", "level": "INFO", "message": "LSTM: Starting analysis", "module": "strategies", "function": "analyze", "line": 109}
+{"timestamp": "2024-11-12T11:11:21.540376", "level": "INFO", "message": "Calculating LSTM direction-based signals", "module": "strategies", "function": "calculate_signals", "line": 237}
+{"timestamp": "2024-11-12T11:11:21.540840", "level": "DEBUG", "message": "Created sequences - X: (220, 20, 1), y: (220, 1)", "module": "preprocessing", "function": "create_sequences", "line": 174}
+{"timestamp": "2024-11-12T11:11:31.158085", "level": "INFO", "message": "Generated signals: {'HOLD': 58, 'BUY': 1, 'SELL': 1}", "module": "strategies", "function": "calculate_signals", "line": 269}
+{"timestamp": "2024-11-12T11:11:31.158268", "level": "INFO", "message": "LSTM: Calculating returns with initial_cash=100000", "module": "strategies", "function": "calculate_returns", "line": 32}
+{"timestamp": "2024-11-12T11:11:31.160287", "level": "INFO", "message": "LSTM: Final return 2.56%", "module": "strategies", "function": "calculate_returns", "line": 100}
+{"timestamp": "2024-11-12T11:11:31.161251", "level": "INFO", "message": "Argentina - Pampa Energia SA (P Results - Return: 2.56%, Sharpe: 0.07", "module": "main", "function": "analyze_single_strategy", "line": 129}
+{"timestamp": "2024-11-12T11:11:31.161333", "level": "INFO", "message": "Analyzing Colombia - Cementos Argos SA (C with lstm strategy", "module": "main", "function": "analyze_single_strategy", "line": 110}
+{"timestamp": "2024-11-12T11:11:31.161371", "level": "INFO", "message": "LSTM: Starting analysis", "module": "strategies", "function": "analyze", "line": 109}
+{"timestamp": "2024-11-12T11:11:31.161399", "level": "INFO", "message": "Calculating LSTM direction-based signals", "module": "strategies", "function": "calculate_signals", "line": 237}
+{"timestamp": "2024-11-12T11:11:31.161854", "level": "DEBUG", "message": "Created sequences - X: (222, 20, 1), y: (222, 1)", "module": "preprocessing", "function": "create_sequences", "line": 174}
+{"timestamp": "2024-11-12T11:11:40.565051", "level": "INFO", "message": "Generated signals: {'HOLD': 61}", "module": "strategies", "function": "calculate_signals", "line": 269}
+{"timestamp": "2024-11-12T11:11:40.565344", "level": "INFO", "message": "LSTM: Calculating returns with initial_cash=100000", "module": "strategies", "function": "calculate_returns", "line": 32}
+{"timestamp": "2024-11-12T11:11:40.567405", "level": "INFO", "message": "LSTM: Final return 0.00%", "module": "strategies", "function": "calculate_returns", "line": 100}
+{"timestamp": "2024-11-12T11:11:40.568373", "level": "INFO", "message": "Colombia - Cementos Argos SA (C Results - Return: 0.00%, Sharpe: 0.00", "module": "main", "function": "analyze_single_strategy", "line": 129}
+{"timestamp": "2024-11-12T11:11:40.568488", "level": "INFO", "message": "Analyzing South Africa - Impala Platinum  with lstm strategy", "module": "main", "function": "analyze_single_strategy", "line": 110}
+{"timestamp": "2024-11-12T11:11:40.568550", "level": "INFO", "message": "LSTM: Starting analysis", "module": "strategies", "function": "analyze", "line": 109}
+{"timestamp": "2024-11-12T11:11:40.568611", "level": "INFO", "message": "Calculating LSTM direction-based signals", "module": "strategies", "function": "calculate_signals", "line": 237}
+{"timestamp": "2024-11-12T11:11:40.569134", "level": "DEBUG", "message": "Created sequences - X: (232, 20, 1), y: (232, 1)", "module": "preprocessing", "function": "create_sequences", "line": 174}
+{"timestamp": "2024-11-12T11:11:50.391615", "level": "INFO", "message": "Generated signals: {'HOLD': 52, 'BUY': 5, 'SELL': 5}", "module": "strategies", "function": "calculate_signals", "line": 269}
+{"timestamp": "2024-11-12T11:11:50.391831", "level": "INFO", "message": "LSTM: Calculating returns with initial_cash=100000", "module": "strategies", "function": "calculate_returns", "line": 32}
+{"timestamp": "2024-11-12T11:11:50.394506", "level": "INFO", "message": "LSTM: Final return -3.38%", "module": "strategies", "function": "calculate_returns", "line": 100}
+{"timestamp": "2024-11-12T11:11:50.396351", "level": "INFO", "message": "South Africa - Impala Platinum  Results - Return: -3.38%, Sharpe: -0.07", "module": "main", "function": "analyze_single_strategy", "line": 129}
+{"timestamp": "2024-11-12T11:11:50.396544", "level": "INFO", "message": "Analyzing South Korea - Dongkuk Steel Mil with lstm strategy", "module": "main", "function": "analyze_single_strategy", "line": 110}
+{"timestamp": "2024-11-12T11:11:50.396602", "level": "INFO", "message": "LSTM: Starting analysis", "module": "strategies", "function": "analyze", "line": 109}
+{"timestamp": "2024-11-12T11:11:50.396679", "level": "INFO", "message": "Calculating LSTM direction-based signals", "module": "strategies", "function": "calculate_signals", "line": 237}
+{"timestamp": "2024-11-12T11:11:50.397597", "level": "DEBUG", "message": "Created sequences - X: (228, 20, 1), y: (228, 1)", "module": "preprocessing", "function": "create_sequences", "line": 174}
+{"timestamp": "2024-11-12T11:12:00.400929", "level": "INFO", "message": "Generated signals: {'HOLD': 60, 'BUY': 1}", "module": "strategies", "function": "calculate_signals", "line": 269}
+{"timestamp": "2024-11-12T11:12:00.401204", "level": "INFO", "message": "LSTM: Calculating returns with initial_cash=100000", "module": "strategies", "function": "calculate_returns", "line": 32}
+{"timestamp": "2024-11-12T11:12:00.404664", "level": "INFO", "message": "LSTM: Final return 72.70%", "module": "strategies", "function": "calculate_returns", "line": 100}
+{"timestamp": "2024-11-12T11:12:00.406006", "level": "INFO", "message": "South Korea - Dongkuk Steel Mil Results - Return: 72.70%, Sharpe: 1.35", "module": "main", "function": "analyze_single_strategy", "line": 129}
+{"timestamp": "2024-11-12T11:12:00.406667", "level": "INFO", "message": "\nlstm Portfolio Performance:\nAverage Return: 12.20%\nBest Return: 72.70%\nWorst Return: -3.38%\nAverage Sharpe: 0.25\nAverage Win Rate: 64.4%\nAverage Max Drawdown: 3.7%", "module": "main", "function": "main", "line": 199}
+{"timestamp": "2024-11-12T11:12:00.407440", "level": "INFO", "message": "Results saved to /root/apziva_project_5/output/results.json", "module": "main", "function": "main", "line": 216}
+{"timestamp": "2024-11-12T11:12:00.410240", "level": "INFO", "message": "Program completed successfully", "module": "main", "function": "<module>", "line": 225}

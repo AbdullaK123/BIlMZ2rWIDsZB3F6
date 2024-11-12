@@ -1,0 +1,12 @@
+{
+    "timestamp": "2024-11-12T11:17:13.480769",
+    "strategy": "bollinger_South Korea - Dongkuk Steel Mil",
+    "category": "company_performance",
+    "metrics": {
+        "return": 29.263038440070392,
+        "trades": 1,
+        "sharpe_ratio": 0.5417350020756655,
+        "max_drawdown": 6.3588294848169244,
+        "win_rate": 100.0
+    }
+}

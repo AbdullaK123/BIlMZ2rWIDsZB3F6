@@ -1,0 +1,12 @@
+{
+    "timestamp": "2024-11-12T11:11:11.732038",
+    "strategy": "lstm_Egypt - Medinet Nasr Housing (M",
+    "category": "company_performance",
+    "metrics": {
+        "return": 1.2719284045738606,
+        "trades": 2,
+        "sharpe_ratio": 0.04896553411665494,
+        "max_drawdown": 1.1764626439581534,
+        "win_rate": 100.0
+    }
+}

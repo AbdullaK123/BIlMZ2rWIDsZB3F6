@@ -1,0 +1,15 @@
+{
+    "timestamp": "2024-11-12T11:17:13.481811",
+    "strategy": "bollinger",
+    "category": "portfolio_performance",
+    "metrics": {
+        "avg_return": 4.37586821343824,
+        "best_return": 29.263038440070392,
+        "worst_return": -14.423891617497123,
+        "avg_trades": 0.25,
+        "avg_sharpe_ratio": 0.08139842909540093,
+        "avg_max_drawdown": 5.406710920277389,
+        "avg_win_rate": 25.0,
+        "companies_analyzed": 8
+    }
+}

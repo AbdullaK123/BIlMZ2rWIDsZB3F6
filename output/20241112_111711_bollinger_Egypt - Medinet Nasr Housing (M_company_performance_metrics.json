@@ -1,0 +1,12 @@
+{
+    "timestamp": "2024-11-12T11:17:13.434815",
+    "strategy": "bollinger_Egypt - Medinet Nasr Housing (M",
+    "category": "company_performance",
+    "metrics": {
+        "return": 4.5254020680064855,
+        "trades": 0,
+        "sharpe_ratio": 0.1742147817091892,
+        "max_drawdown": 0.01339658128576633,
+        "win_rate": 0
+    }
+}

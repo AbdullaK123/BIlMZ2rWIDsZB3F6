@@ -1,0 +1,12 @@
+{
+    "timestamp": "2024-11-12T11:11:50.396029",
+    "strategy": "lstm_South Africa - Impala Platinum ",
+    "category": "company_performance",
+    "metrics": {
+        "return": -3.384460471592203,
+        "trades": 5,
+        "sharpe_ratio": -0.06873192381970193,
+        "max_drawdown": 10.399658436632564,
+        "win_rate": 40.0
+    }
+}

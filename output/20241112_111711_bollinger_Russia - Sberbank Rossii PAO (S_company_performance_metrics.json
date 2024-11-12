@@ -1,0 +1,12 @@
+{
+    "timestamp": "2024-11-12T11:17:13.414997",
+    "strategy": "bollinger_Russia - Sberbank Rossii PAO (S",
+    "category": "company_performance",
+    "metrics": {
+        "return": 8.843337395103488,
+        "trades": 0,
+        "sharpe_ratio": 0.3251341989863637,
+        "max_drawdown": 6.907106342973633,
+        "win_rate": 0
+    }
+}

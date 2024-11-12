@@ -1,0 +1,12 @@
+{
+    "timestamp": "2024-11-12T11:16:59.977318",
+    "strategy": "naive_Brazil - Minerva SABrazil (BEEF",
+    "category": "company_performance",
+    "metrics": {
+        "return": -2.25710545472501,
+        "trades": 13,
+        "sharpe_ratio": -0.05800132268950584,
+        "max_drawdown": 9.958885169765816,
+        "win_rate": 46.15384615384615
+    }
+}

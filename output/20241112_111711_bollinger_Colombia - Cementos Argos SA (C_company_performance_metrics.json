@@ -1,0 +1,12 @@
+{
+    "timestamp": "2024-11-12T11:17:13.461550",
+    "strategy": "bollinger_Colombia - Cementos Argos SA (C",
+    "category": "company_performance",
+    "metrics": {
+        "return": -14.423891617497123,
+        "trades": 0,
+        "sharpe_ratio": -0.5240485920745439,
+        "max_drawdown": 19.590382874723165,
+        "win_rate": 0
+    }
+}
